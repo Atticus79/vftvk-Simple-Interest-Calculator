@@ -12,10 +12,16 @@ h1{
 }
 
 /* formats the div tag */
+/* note: the following differences from the instructions were made */
+/* in order to match the layout shown in the example web page: */
+/* 1. width:300px - is set to 500 px */
+/* 2. align:center - probably text-align was meant, but it is not used */
+/* 		     since the layout is left-aligned and centered I used */
+/* 		     the ptab class defined below */
 .maindiv{
 	background-color:white;
 	color:black;
-	width:500px;
+	width:500px; 
 	padding:20px;
 	border-radius:25px;	
 }
