@@ -2,7 +2,7 @@
 function compute()
 {
 	// grab inputs from the user
-    var principal = document.getElementById("principal").value;
+    	var principal = document.getElementById("principal").value;
 	
 	// validate the principal amount
 	// stop computing if not valid
@@ -11,7 +11,7 @@ function compute()
 		return;
 	}
 	
-    var rate = document.getElementById("rate").value;
+    	var rate = document.getElementById("rate").value;
 	var years = document.getElementById("years").value;
 	
 	// compute the interest earned
@@ -28,10 +28,10 @@ function compute()
 function updateRate() 
 {
 	// grab the value from the slider control
-    var rateval = document.getElementById("rate").value;
+    	var rateval = document.getElementById("rate").value;
 	
 	// update the rate display and add the % sign
-    document.getElementById("rate_val").innerText=rateval + "%";
+    	document.getElementById("rate_val").innerText=rateval + "%";
 }
 
 // validate the principal amount entered 
