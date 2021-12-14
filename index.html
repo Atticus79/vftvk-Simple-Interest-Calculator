@@ -6,59 +6,59 @@
 	<title>Intro to Web Development - Final Project - Simple Interest Calculator</title>
     </head>
     <body>
-	<div class="maindiv">
-		<h1>Simple Interest Calculator</h1>	
+      <div class="maindiv">
+        <h1>Simple Interest Calculator</h1>	
 
-		<!--the principal amount input-->
-		<p class="ptab">			
-		Amount
-		<span class="tab60"></span>
-		<input type="number" id="principal"> 
-		</p>
+        <!--the principal amount input-->
+        <p class="ptab">			
+        Amount
+        <span class="tab60"></span>
+        <input type="number" id="principal"> 
+        </p>
 
-		<!--the interest rate control-->
-		<p class="ptab">			
-		Rate
-		<span class="tab80"></span>
-		<input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()"> 
+        <!--the interest rate control-->
+        <p class="ptab">			
+        Interest Rate
+        <span class="tab30"></span>
+        <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="updateRate()"> 
 
-		<!--display the selected interest rate-->
-		<span id="rate_val" >
-		10.25%
-		</span>  
-		</p>
+        <!--display the selected interest rate-->
+        <span id="rate_val" >
+        10.25%
+        </span>  
+        </p>
 
-		<!--the number of years input control-->
-		<p class="ptab">			
-		No. of Years
-		<span class="tab30"></span> 
-		<select id="years">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-			<option value="6">6</option>
-			<option value="7">7</option>
-			<option value="8">8</option>
-			<option value="9">9</option>
-			<option value="10">10</option>
-		</select> 
-		</p>	
+        <!--the number of years input control-->
+        <p class="ptab">			
+        No. of Years
+        <span class="tab30"></span> 
+        <select id="years">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select> 
+        </p>	
 
-		<!--the button to compute the interest amount earned-->
-		<p class="ptab">			
-		<button onclick="compute()">Compute Interest</button> 
-		</p>
+        <!--the button to compute the interest amount earned-->
+        <p class="ptab">			
+        <button onclick="compute()">Compute Interest</button> 
+        </p>
 
-		<!--the output display to show the result-->
-		<p class="ptab">			
-		<span span id="result"></span> 
-		</p>
+        <!--the output display to show the result-->
+        <p class="ptab">			
+        <span span id="result"></span> 
+        </p>
 
-		<footer>
-		&#169; This Calculator belongs to Mark Swartz
-		</footer>
-	</div>	
+        <footer>
+        &#169; This Calculator belongs to Mark Swartz
+        </footer>
+      </div>	
     </body>
 </html>

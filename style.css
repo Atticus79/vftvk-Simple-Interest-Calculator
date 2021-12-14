@@ -43,10 +43,3 @@ h1{
 	margin-left: 60px;
 }
 
-/* class to create a space tab of 80 pixels */
-.tab80 {
-	display: inline-block;
-	margin-left: 80px;
-}
-
-
