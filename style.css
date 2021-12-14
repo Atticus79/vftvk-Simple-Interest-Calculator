@@ -1,4 +1,46 @@
-body {background-color:tan;}
-h1{color:green;}
+/* formats the body tag */
+body {
+	background-color:black;
+	font-family:ariel;
+	color:white
+}
+
+/* formats the header tag */
+h1{
+	color:grey;
+	font-family:verdana
+}
+
+/* formats the div tag */
+.maindiv{
+	background-color:white;
+	color:black;
+	width:500px;
+	padding:20px;
+	border-radius:25px;	
+}
+
+/* class to create a paragraph tabbed to 80 pixels */
+.ptab {
+	margin-left: 80px;
+}
+
+/* class to create a space tab of 30 pixels */
+.tab30 {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+/* class to create a space tab of 60 pixels */
+.tab60 {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+/* class to create a space tab of 80 pixels */
+.tab80 {
+    display: inline-block;
+    margin-left: 80px;
+}
 
 
